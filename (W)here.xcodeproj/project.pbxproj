@@ -146,9 +146,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74612DC32337B3CD00D94155 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
 		74D589F42336C02B0044728B = {
 			isa = PBXGroup;
 			children = (
+				74612DC32337B3CD00D94155 /* Wireframe */,
 				74D58A582336C0D00044728B /* Shared */,
 				74D589FF2336C02B0044728B /* (W)here */,
 				74D58A212336C02D0044728B /* (W)hereUITests */,

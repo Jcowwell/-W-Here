@@ -3,6 +3,8 @@
 /// crashes that occur from calling resume multiple times on a timer that is
 /// already resumed (noted by https://github.com/SiftScience/sift-ios/issues/52
 /// Owned by Author linked in URL above.
+
+
 import Foundation
 
 public class RepeatingTimer {
