@@ -7,11 +7,71 @@
 //
 
 import WatchKit
+import CoreLocation
+import WatchConnectivity
+import CoreLocation
 
-class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
+
+class ExtensionDelegate: NSObject, WKExtensionDelegate,  CLLocationManagerDelegate {
+
+    let t = RepeatingTimer(timeInterval: 1)
+    var session:WCSession?
+    
+    var manager: CLLocationManager?
+    
+    //4.2
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        
+    }
+    
     func applicationDidFinishLaunching() {
         // Perform any final initialization of your application.
+        
+        
+           let authorizationStatus = CLLocationManager.authorizationStatus()
+           
+           switch authorizationStatus {
+           case .notDetermined:
+                   manager = CLLocationManager()
+                   manager!.delegate = self as CLLocationManagerDelegate
+                   manager!.requestWhenInUseAuthorization()
+                   manager?.requestLocation()
+                   manager?.allowsBackgroundLocationUpdates = true
+                   print("Not Determined")
+
+           case .authorizedWhenInUse:
+                   print("In Use")
+               
+           case .denied:
+                   print("Denied")
+               
+               default:
+                   break
+           }
+           
+          
+        
+        if (WCSession.isSupported()) {
+             let session = WCSession.default
+            session.activate()
+            self.session = session
+        }
+        t.eventHandler = {
+            if (self.session!.isReachable) {
+                print("Reachable!")
+            }
+            else {
+                WKInterfaceDevice.current().play(.failure)
+                print("No")
+            }
+            
+        }
+        
+        t.resume()
     }
 
     func applicationDidBecomeActive() {

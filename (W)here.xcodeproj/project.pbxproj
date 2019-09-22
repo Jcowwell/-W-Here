@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740314F92337408500E40A1D /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740314F82337408500E40A1D /* RepeatingTimer.swift */; };
+		740314FA233741C300E40A1D /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740314F82337408500E40A1D /* RepeatingTimer.swift */; };
+		740314FB2337423B00E40A1D /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740314F82337408500E40A1D /* RepeatingTimer.swift */; };
 		74D58A012336C02B0044728B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D58A002336C02B0044728B /* AppDelegate.swift */; };
 		74D58A032336C02B0044728B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D58A022336C02B0044728B /* SceneDelegate.swift */; };
 		74D58A052336C02B0044728B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D58A042336C02B0044728B /* ViewController.swift */; };
 		74D58A082336C02B0044728B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D58A062336C02B0044728B /* Main.storyboard */; };
-		74D58A0A2336C02D0044728B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D58A092336C02D0044728B /* Assets.xcassets */; };
 		74D58A0D2336C02D0044728B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D58A0B2336C02D0044728B /* LaunchScreen.storyboard */; };
 		74D58A182336C02D0044728B /* _W_hereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D58A172336C02D0044728B /* _W_hereTests.swift */; };
 		74D58A232336C02D0044728B /* _W_hereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D58A222336C02D0044728B /* _W_hereUITests.swift */; };
@@ -23,6 +25,7 @@
 		74D58A3E2336C02E0044728B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D58A3D2336C02E0044728B /* ExtensionDelegate.swift */; };
 		74D58A402336C02E0044728B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D58A3F2336C02E0044728B /* NotificationController.swift */; };
 		74D58A422336C0300044728B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D58A412336C0300044728B /* Assets.xcassets */; };
+		74D58A5A2336DEF60044728B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D58A092336C02D0044728B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		740314F82337408500E40A1D /* RepeatingTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RepeatingTimer.swift; path = "(W)here/RepeatingTimer.swift"; sourceTree = "<group>"; };
 		74D589FD2336C02B0044728B /* (W)here.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "(W)here.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D58A002336C02B0044728B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74D58A022336C02B0044728B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,7 @@
 		74D58A412336C0300044728B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74D58A432336C0300044728B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D58A442336C0300044728B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		74D58A592336CDAB0044728B /* (W)here WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "(W)here WatchKit App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,10 +149,11 @@
 		74D589F42336C02B0044728B = {
 			isa = PBXGroup;
 			children = (
+				74D58A582336C0D00044728B /* Shared */,
 				74D589FF2336C02B0044728B /* (W)here */,
-				74D58A162336C02D0044728B /* (W)hereTests */,
 				74D58A212336C02D0044728B /* (W)hereUITests */,
 				74D58A2B2336C02D0044728B /* (W)here WatchKit App */,
+				74D58A162336C02D0044728B /* (W)hereTests */,
 				74D58A3A2336C02E0044728B /* (W)here WatchKit Extension */,
 				74D589FE2336C02B0044728B /* Products */,
 			);
@@ -200,6 +206,7 @@
 		74D58A2B2336C02D0044728B /* (W)here WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				74D58A592336CDAB0044728B /* (W)here WatchKit App.entitlements */,
 				74D58A2C2336C02D0044728B /* Interface.storyboard */,
 				74D58A2F2336C02E0044728B /* Assets.xcassets */,
 				74D58A312336C02E0044728B /* Info.plist */,
@@ -218,6 +225,14 @@
 				74D58A442336C0300044728B /* PushNotificationPayload.apns */,
 			);
 			path = "(W)here WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		74D58A582336C0D00044728B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				740314F82337408500E40A1D /* RepeatingTimer.swift */,
+			);
+			name = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,8 +383,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D58A5A2336DEF60044728B /* Assets.xcassets in Resources */,
 				74D58A0D2336C02D0044728B /* LaunchScreen.storyboard in Resources */,
-				74D58A0A2336C02D0044728B /* Assets.xcassets in Resources */,
 				74D58A082336C02B0044728B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +430,7 @@
 				74D58A052336C02B0044728B /* ViewController.swift in Sources */,
 				74D58A012336C02B0044728B /* AppDelegate.swift in Sources */,
 				74D58A032336C02B0044728B /* SceneDelegate.swift in Sources */,
+				740314F92337408500E40A1D /* RepeatingTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D58A182336C02D0044728B /* _W_hereTests.swift in Sources */,
+				740314FA233741C300E40A1D /* RepeatingTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +458,7 @@
 				74D58A402336C02E0044728B /* NotificationController.swift in Sources */,
 				74D58A3E2336C02E0044728B /* ExtensionDelegate.swift in Sources */,
 				74D58A3C2336C02E0044728B /* InterfaceController.swift in Sources */,
+				740314FB2337423B00E40A1D /* RepeatingTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,6 +634,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHUZ9GLUCQ;
 				INFOPLIST_FILE = "(W)here WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -637,6 +656,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHUZ9GLUCQ;
 				INFOPLIST_FILE = "(W)here WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -658,7 +678,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "(W)here WatchKit App/(W)here WatchKit App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHUZ9GLUCQ;
 				IBSC_MODULE = _W_here_WatchKit_Extension;
 				INFOPLIST_FILE = "(W)here WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "Pace2020.-W-here.watchkitapp";
@@ -676,7 +698,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "(W)here WatchKit App/(W)here WatchKit App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHUZ9GLUCQ;
 				IBSC_MODULE = _W_here_WatchKit_Extension;
 				INFOPLIST_FILE = "(W)here WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "Pace2020.-W-here.watchkitapp";
@@ -694,6 +718,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHUZ9GLUCQ;
 				INFOPLIST_FILE = "(W)here/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -711,6 +736,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHUZ9GLUCQ;
 				INFOPLIST_FILE = "(W)here/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -728,7 +754,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHUZ9GLUCQ;
 				INFOPLIST_FILE = "(W)hereTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -749,7 +777,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHUZ9GLUCQ;
 				INFOPLIST_FILE = "(W)hereTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -769,7 +799,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHUZ9GLUCQ;
 				INFOPLIST_FILE = "(W)hereUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -788,7 +820,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHUZ9GLUCQ;
 				INFOPLIST_FILE = "(W)hereUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
