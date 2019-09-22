@@ -10,6 +10,18 @@
 		740314F92337408500E40A1D /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740314F82337408500E40A1D /* RepeatingTimer.swift */; };
 		740314FA233741C300E40A1D /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740314F82337408500E40A1D /* RepeatingTimer.swift */; };
 		740314FB2337423B00E40A1D /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740314F82337408500E40A1D /* RepeatingTimer.swift */; };
+		74612DC52337B46600D94155 /* iPhone app.png in Resources */ = {isa = PBXBuildFile; fileRef = 74612DC42337B46500D94155 /* iPhone app.png */; };
+		74612DD12337B47600D94155 /* iPhone spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 74612DC62337B47500D94155 /* iPhone spotlight.png */; };
+		74612DD22337B47600D94155 /* iPhone spotlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74612DC72337B47500D94155 /* iPhone spotlight@3x.png */; };
+		74612DD32337B47600D94155 /* iPhone app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74612DC82337B47600D94155 /* iPhone app@2x.png */; };
+		74612DD42337B47600D94155 /* iPhone notification@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74612DC92337B47600D94155 /* iPhone notification@2x.png */; };
+		74612DD52337B47600D94155 /* iPhone notification.png in Resources */ = {isa = PBXBuildFile; fileRef = 74612DCA2337B47600D94155 /* iPhone notification.png */; };
+		74612DD62337B47600D94155 /* iPhone app@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74612DCB2337B47600D94155 /* iPhone app@3x.png */; };
+		74612DD72337B47600D94155 /* iPhone spotlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74612DCC2337B47600D94155 /* iPhone spotlight@2x.png */; };
+		74612DD82337B47600D94155 /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 74612DCD2337B47600D94155 /* iPhone.png */; };
+		74612DD92337B47600D94155 /* iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74612DCE2337B47600D94155 /* iPhone@2x.png */; };
+		74612DDA2337B47600D94155 /* iPhone notification@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74612DCF2337B47600D94155 /* iPhone notification@3x.png */; };
+		74612DDB2337B47600D94155 /* iPhone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74612DD02337B47600D94155 /* iPhone@3x.png */; };
 		74D58A012336C02B0044728B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D58A002336C02B0044728B /* AppDelegate.swift */; };
 		74D58A032336C02B0044728B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D58A022336C02B0044728B /* SceneDelegate.swift */; };
 		74D58A052336C02B0044728B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D58A042336C02B0044728B /* ViewController.swift */; };
@@ -86,6 +98,18 @@
 
 /* Begin PBXFileReference section */
 		740314F82337408500E40A1D /* RepeatingTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RepeatingTimer.swift; path = "(W)here/RepeatingTimer.swift"; sourceTree = "<group>"; };
+		74612DC42337B46500D94155 /* iPhone app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone app.png"; sourceTree = "<group>"; };
+		74612DC62337B47500D94155 /* iPhone spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone spotlight.png"; sourceTree = "<group>"; };
+		74612DC72337B47500D94155 /* iPhone spotlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone spotlight@3x.png"; sourceTree = "<group>"; };
+		74612DC82337B47600D94155 /* iPhone app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone app@2x.png"; sourceTree = "<group>"; };
+		74612DC92337B47600D94155 /* iPhone notification@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone notification@2x.png"; sourceTree = "<group>"; };
+		74612DCA2337B47600D94155 /* iPhone notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone notification.png"; sourceTree = "<group>"; };
+		74612DCB2337B47600D94155 /* iPhone app@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone app@3x.png"; sourceTree = "<group>"; };
+		74612DCC2337B47600D94155 /* iPhone spotlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone spotlight@2x.png"; sourceTree = "<group>"; };
+		74612DCD2337B47600D94155 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
+		74612DCE2337B47600D94155 /* iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone@2x.png"; sourceTree = "<group>"; };
+		74612DCF2337B47600D94155 /* iPhone notification@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone notification@3x.png"; sourceTree = "<group>"; };
+		74612DD02337B47600D94155 /* iPhone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone@3x.png"; sourceTree = "<group>"; };
 		74D589FD2336C02B0044728B /* (W)here.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "(W)here.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D58A002336C02B0044728B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74D58A022336C02B0044728B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,8 +173,28 @@
 		74612DC32337B3CD00D94155 /* Wireframe */ = {
 			isa = PBXGroup;
 			children = (
+				74612DDC2337B47B00D94155 /* Assets */,
 			);
 			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		74612DDC2337B47B00D94155 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				74612DC42337B46500D94155 /* iPhone app.png */,
+				74612DC82337B47600D94155 /* iPhone app@2x.png */,
+				74612DCB2337B47600D94155 /* iPhone app@3x.png */,
+				74612DCA2337B47600D94155 /* iPhone notification.png */,
+				74612DC92337B47600D94155 /* iPhone notification@2x.png */,
+				74612DCF2337B47600D94155 /* iPhone notification@3x.png */,
+				74612DC62337B47500D94155 /* iPhone spotlight.png */,
+				74612DCC2337B47600D94155 /* iPhone spotlight@2x.png */,
+				74612DC72337B47500D94155 /* iPhone spotlight@3x.png */,
+				74612DCD2337B47600D94155 /* iPhone.png */,
+				74612DCE2337B47600D94155 /* iPhone@2x.png */,
+				74612DD02337B47600D94155 /* iPhone@3x.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 		74D589F42336C02B0044728B = {
@@ -391,9 +435,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74612DD52337B47600D94155 /* iPhone notification.png in Resources */,
+				74612DD72337B47600D94155 /* iPhone spotlight@2x.png in Resources */,
+				74612DD32337B47600D94155 /* iPhone app@2x.png in Resources */,
+				74612DD42337B47600D94155 /* iPhone notification@2x.png in Resources */,
 				74D58A5A2336DEF60044728B /* Assets.xcassets in Resources */,
+				74612DDB2337B47600D94155 /* iPhone@3x.png in Resources */,
+				74612DC52337B46600D94155 /* iPhone app.png in Resources */,
+				74612DD22337B47600D94155 /* iPhone spotlight@3x.png in Resources */,
 				74D58A0D2336C02D0044728B /* LaunchScreen.storyboard in Resources */,
+				74612DD82337B47600D94155 /* iPhone.png in Resources */,
+				74612DD12337B47600D94155 /* iPhone spotlight.png in Resources */,
+				74612DDA2337B47600D94155 /* iPhone notification@3x.png in Resources */,
+				74612DD92337B47600D94155 /* iPhone@2x.png in Resources */,
 				74D58A082336C02B0044728B /* Main.storyboard in Resources */,
+				74612DD62337B47600D94155 /* iPhone app@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
